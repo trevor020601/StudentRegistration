@@ -1,0 +1,1 @@
+![StudentRegistration/img/StudentRegistration.png]

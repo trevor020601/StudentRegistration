@@ -116,7 +116,7 @@ namespace StudentRegistration
             {
                 Mode = false;
                 id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                sql = "delete from student where  = @id ";
+                sql = "delete from student where id = @id ";
                 con.Open();
                 cmd = new SqlCommand(sql, con);
                 cmd.Parameters.AddWithValue("@id ", id);

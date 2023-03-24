@@ -1,1 +1,1 @@
-![StudentRegistration/img/StudentRegistration.png]
+![img/StudentRegistration.png]

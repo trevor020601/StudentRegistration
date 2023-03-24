@@ -1,1 +1,1 @@
-img/StudentRegistration.PNG
+![img/StudentRegistration.PNG]

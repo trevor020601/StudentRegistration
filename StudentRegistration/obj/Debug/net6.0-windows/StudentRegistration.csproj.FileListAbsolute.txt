@@ -1,0 +1,17 @@
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\bin\Debug\net6.0-windows\StudentRegistration.exe
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\bin\Debug\net6.0-windows\StudentRegistration.deps.json
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\bin\Debug\net6.0-windows\StudentRegistration.runtimeconfig.json
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\bin\Debug\net6.0-windows\StudentRegistration.dll
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\bin\Debug\net6.0-windows\StudentRegistration.pdb
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.csproj.AssemblyReference.cache
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.Form1.resources
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.csproj.GenerateResource.cache
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.AssemblyInfoInputs.cache
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.AssemblyInfo.cs
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.csproj.CoreCompileInputs.cache
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.dll
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\refint\StudentRegistration.dll
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.pdb
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\StudentRegistration.genruntimeconfig.cache
+C:\Coding Projects\C#\StudentRegistration\StudentRegistration\obj\Debug\net6.0-windows\ref\StudentRegistration.dll

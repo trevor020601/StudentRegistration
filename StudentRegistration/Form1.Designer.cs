@@ -133,6 +133,7 @@
             button1.TabIndex = 6;
             button1.Text = "Clear";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -152,6 +153,7 @@
             button3.TabIndex = 8;
             button3.Text = "Refresh";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // dataGridView1
             // 

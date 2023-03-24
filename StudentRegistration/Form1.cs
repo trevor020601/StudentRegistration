@@ -82,7 +82,23 @@ namespace StudentRegistration
             }
             else
             {
+                id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                sql = "update student set stname = @stname, course = @course, fee = @fee where id = @id";
+                con.Open();
+                cmd = new SqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@stname", name);
+                cmd.Parameters.AddWithValue("@course", course);
+                cmd.Parameters.AddWithValue("@fee", fee);
+                cmd.Parameters.AddWithValue("@id", id);
+                MessageBox.Show("Record Updated!");
+                cmd.ExecuteNonQuery();
 
+                textName.Clear();
+                textCourse.Clear();
+                textFee.Clear();
+                textName.Focus();
+                button2.Text = "Save";
+                Mode = true;
             }
             con.Close();
         }
@@ -94,7 +110,35 @@ namespace StudentRegistration
                 Mode = false;
                 id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
                 getID(id);
+                button2.Text = "Edit";
             }
+            else if(e.ColumnIndex == dataGridView1.Columns["Delete"].Index && e.RowIndex >= 0)
+            {
+                Mode = false;
+                id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                sql = "delete from student where  = @id ";
+                con.Open();
+                cmd = new SqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@id ", id);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Record Deleted!");
+                con.Close();   
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            LoadDataGrid();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textName.Clear();
+            textCourse.Clear();
+            textFee.Clear();
+            textName.Focus();
+            button2.Text = "Save";
+            Mode = true;
         }
     }
 }

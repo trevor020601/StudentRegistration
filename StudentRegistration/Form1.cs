@@ -112,7 +112,7 @@ namespace StudentRegistration
                 getID(id);
                 button2.Text = "Edit";
             }
-            else if(e.ColumnIndex == dataGridView1.Columns["Delete"].Index && e.RowIndex >= 0)
+            else if (e.ColumnIndex == dataGridView1.Columns["Delete"].Index && e.RowIndex >= 0)
             {
                 Mode = false;
                 id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
@@ -122,7 +122,7 @@ namespace StudentRegistration
                 cmd.Parameters.AddWithValue("@id ", id);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Record Deleted!");
-                con.Close();   
+                con.Close();
             }
         }
 
